@@ -1,0 +1,13 @@
+body{
+    background-image: url(./image/nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#lor{
+    color: antiquewhite;
+}
+*{
+    color: brown;
+}

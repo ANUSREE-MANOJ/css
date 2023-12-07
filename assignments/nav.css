@@ -1,0 +1,111 @@
+nav{
+    height: 70px;
+
+}
+
+body{
+    background-color: black;
+}
+ul a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 12px 10px;
+}
+li{
+    color: white;
+    list-style-type: none;
+    margin-right: 50px;
+}
+li:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+.ul{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    
+}
+.log{
+    text-align: center;
+    margin-left: 50px;
+}
+
+.bod2{
+    color: rgb(252, 251, 250);
+   font-size: 60px;
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bolder;
+position: relative;
+left: 340px;
+top:80px
+}
+.bod{
+   position: relative;
+   left: 600px;
+   bottom: 190px;
+}
+.btn{
+    color: antiquewhite;
+    position: relative;
+    left: 350px;
+    bottom: 300px;
+
+    
+}
+button:hover{
+    font-size: larger;
+}
+
+
+
+  
+  
+ul li{
+  display: inline-block;
+  position: relative;
+  line-height: 30px;
+  text-align: left;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+  
+  
+  align-items: center;
+}
+ul li{
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+  text-align: left;
+}
+ul li a{
+  display: block;
+  padding: 17px 25px;
+  color: white;
+  text-decoration: none;
+  
+}
+
+ul li ul.dropdown{
+  min-width: 100%;
+  /* Set width of the dropdown */
+  background: rgb(16, 17, 16);
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+}
+ul li:hover ul.dropdown{
+  display: block;	/* Display the dropdown */
+}
+ul li ul.dropdown li {
+  display: block;
+  
+}
+
