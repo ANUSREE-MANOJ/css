@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    h1 {
+      opacity: 0; /* Set initial state to hidden */
+      animation: fadeIn 1s forwards; /* Animation name, duration, and fill-mode */
+      animation-delay: 1s; /* Delay the start of the animation by 3 seconds */
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1; /* Final state, set to fully visible */
+      }
+    }
+  </style>
+  <title>Delayed Heading Display</title>
+</head>
+<body>
+  <h1>This heading will appear after 3 seconds.</h1>
+  </body>
+  </html>

@@ -1,0 +1,213 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .image-slider {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+    width: 100vw; /* Full width of the viewport */
+    height: 500px; 
+    /* Full height of the viewport */
+    
+  }
+  .sefaro2{
+    position: relative;
+    top: 140px ;
+    left: 320px; 
+    font-weight: bold;
+    font-size: 30px;
+    color:white;
+  }
+  .sefaro2b{
+    position: relative;
+    top: 160px;
+    
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    font-size: 17px;
+    width: 865px;
+    height: 27px;
+
+  }
+  .sefaro2c{
+    position: relative;
+    top: 180px;
+    
+    color: white;
+    background-color: rgb(36, 32, 32);
+    font-weight: bold;
+    font-size: 17px;
+    width: 340px;
+    height: 27px;
+
+  }
+  .sefaro2{
+    opacity: 0; /* Set initial state to hidden */
+    animation: fadeIns 1s forwards; /* Animation name, duration, and fill-mode */
+    animation-delay: 3s; 
+  }
+  @keyframes fadeIns {
+    to {
+      opacity: 1; /* Final state, set to fully visible */
+    }
+  }
+  .sefaro2b {
+    position: relative;
+    left: 0;
+    animation: moveTe 2s linear forwards;
+  }
+
+  @keyframes moveTe {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 370px;
+    }
+  }
+  .sefaro2c {
+    position: relative;
+    left: 100;
+    animation: moveTex 2s linear forwards;
+  }
+
+  @keyframes moveTex {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: 600px;
+    }
+  }
+  
+.sefaro3{
+  position: relative;
+  top: 250px ;
+  left: 900px; 
+  font-weight: bold;
+  font-size: 30px;
+  color:white;
+  
+}
+.sefaro4a{
+  position: relative;
+  /* top: 260px;
+  left: 900px; */
+  color: white;
+  background-color: rgb(22, 15, 15);
+  font-weight: bold;
+  font-size: 17px;
+  width: 250px;
+  height: 27px;
+
+}
+.sefaro4b{
+  position: relative;
+  top: 270px;
+  left: 900px;
+  color: white;
+  background-color: rgb(22, 15, 15);
+  font-weight: bold;
+  font-size: 17px;
+  width: 310px;
+  height: 27px;
+}
+.sefaro4c{
+  position: relative;
+  top: 280px;
+  left: 900px;
+  color: white;
+  background-color: rgb(22, 15, 15);
+  font-weight: bold;
+  font-size: 17px;
+  width: 270px;
+  height: 27px;
+}
+.sefaro4d{
+  position: relative;
+  top: 290px;
+  left: 900px;
+  color: white;
+  background-color: rgb(22, 15, 15);
+  font-weight: bold;
+  font-size: 17px;
+  width: 270px;
+  height: 27px;
+}
+
+.sefaro3{
+  opacity: 0; /* Set initial state to hidden */
+  animation: fadeIn 1s forwards; /* Animation name, duration, and fill-mode */
+  animation-delay: 1s; 
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* Final state, set to fully visible */
+  }
+}
+.sefaro4a {
+  position: relative;
+  bottom: 0;
+  left: 900px;
+  animation: moveTe 2s linear forwards;
+}
+
+@keyframes moveTe {
+  0% {
+    bottom: 0;
+    left: 900px;
+  }
+  100% {
+    bottom: 400px;
+    left: 900px;
+  }
+}
+
+.sefaro4b {
+  position: relative;
+  left: 0;
+  animation: moveTe 2s linear forwards;
+}
+
+@keyframes moveTe {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 370px;
+  }
+}
+
+.sefaro4c {
+  position: relative;
+  left: 0;
+  animation: moveTe 2s linear forwards;
+}
+
+@keyframes moveTe {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 370px;
+  }
+}
+
+.sefaro4d {
+  position: relative;
+  left: 0;
+  animation: moveTe 2s linear forwards;
+}
+
+@keyframes moveTe {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 370px;
+  }
+}
